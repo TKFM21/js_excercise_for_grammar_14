@@ -22,6 +22,7 @@ class Person{
 const me = new Person("ああああ", 29, "male", 180, 55.5);
 
 // 課題3: 課題2で生成したインスタンスの情報をconsole.logを使って、「名前」「年齢」「性別」「身長」「体重」が正しくセットされていることを確認する
+console.log("++++++++++++++++++++");
 console.log(me.name);
 console.log(me.age);
 console.log(me.gender);
